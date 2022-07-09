@@ -1,0 +1,61 @@
+/*==================== BUTTONS ====================*/
+.button{
+    display: inline-block;
+    border-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .2rem;
+    font-weight: var(--font-medium);
+}
+
+.button:hover{
+    background-color: var(--first-color-alt);
+}
+
+.button__icon{
+    font-size: 1.25rem;
+    margin-left: var(--mb-0-5);
+    transition: .3s;
+}
+
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: #FFF;
+}
+
+.button--flex{
+    display: inline-flex;
+    border: 1px solid var(--first-color);
+    border-radius: .2rem;
+    align-items: center;
+}
+
+.button--solid{
+    display: inline-flex;
+    border: 1px solid var(--first-color);
+    border-radius: .2rem;
+    padding: 2px;
+    border-radius: .2rem;
+    align-items: center;
+}
+
+.button--small{
+    padding: 1.75rem 1rem;
+}
+
+.button--link{
+    padding: 0;
+    background-color: transparent;
+    color: var(--first-color);
+}
+
+.button--link:hover{
+    background-color: transparent;
+    color: var(--first-color-alt);
+}
+
+/*** Feito por:Matheus de Souza Silva***/
